@@ -1,0 +1,26 @@
+.foldable-title {
+    cursor: pointer;
+    position: relative;
+    padding-right: 30px;
+}
+
+.foldable-title::after {
+    content: "▼";
+    position: absolute;
+    right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.foldable-title.collapsed::after {
+    transform: rotate(-90deg);
+}
+
+.foldable-content {
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    max-height: 1000px;
+}
+
+.foldable-content.collapsed {
+    max-height: 0;
+} 
