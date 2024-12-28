@@ -2,6 +2,8 @@
 
 A WordPress page template that creates collapsible/foldable sections from H2 headings while maintaining your theme's styling. I'm using it for a child theme of the Astra. If you are not using a child theme, you may need to make some changes to the functions.php file.
 
+![Foldable Sections Template](https://github.com/gouliming4437/FoldableSectionTemplate4WP/blob/main/Demo.png)
+
 ## Features
 
 - Creates collapsible sections from H2 headings in your content
